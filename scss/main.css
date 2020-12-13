@@ -99,6 +99,10 @@ h3 {
   width: 50%;
 }
 
+.hamburger {
+  display: none;
+}
+
 .btn {
   border: 0;
   outline: 0;
@@ -630,6 +634,10 @@ footer .btn {
   }
   header .hamburger {
     margin-right: 20px;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
   }
   header .hamburger span {
     display: block;
